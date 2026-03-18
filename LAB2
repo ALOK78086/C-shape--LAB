@@ -1,0 +1,147 @@
+
+
+
+
+Revision of C and C++
+
+Here’s a quick revision of C & C++ (easy to memorize + examples) 👇
+
+🔹 C Language Revision
+1. Basics
+C is a procedural language (step-by-step execution)
+
+Structure: main() is the entry point
+
+Example:
+
+#include <stdio.h>
+int main() {
+    printf("Hello");
+    return 0;
+}
+2. Data Types
+int, float, char, double
+
+Example:
+
+int a = 10;
+float b = 5.5;
+char c = 'A';
+3. Control Statements
+if, else, switch, loops (for, while)
+
+Example:
+
+if(a > 5) {
+    printf("Greater");
+}
+4. Functions
+Reusable block of code
+
+Example:
+
+int add(int x, int y) {
+    return x + y;
+}
+5. Arrays & Strings
+Store multiple values
+
+Example:
+
+int arr[3] = {1,2,3};
+char str[] = "Alok";
+6. Pointers
+Store address of variable
+
+Example:
+
+int a = 10;
+int *p = &a;
+7. Structure
+User-defined data type
+
+Example:
+
+struct student {
+    int id;
+};
+🔹 C++ Revision
+1. OOP Concepts
+Class & Object
+
+Example:
+
+class Student {
+public:
+    int id;
+};
+2. Encapsulation
+Data + methods in one unit
+
+3. Inheritance
+One class uses another
+
+Example:
+
+class A {};
+class B : public A {};
+4. Polymorphism
+Same function, different behavior
+
+Example (Function Overloading):
+
+int add(int a, int b);
+float add(float a, float b);
+5. Constructor
+Automatically called when object created
+
+Example:
+
+class A {
+public:
+    A() {
+        cout << "Constructor";
+    }
+};
+6. Difference (C vs C++)
+C	C++
+Procedural	Object-Oriented
+No classes	Classes available
+No inheritance	Supports inheritance
+🔹 Quick Memory Trick
+C = Functions + Pointers + Structure
+
+C++ = C + OOP (Class, Inheritance, Polymorphism)
+
+If you want, I can make exam-ready short notes (2 lines each) or important viva questions for C/C++ 👍
+
+
+Revision of Object and class concept. SHORT
+
+Here’s a very short revision (easy to memorize) 👇
+
+🔹 Object
+Object = Instance of a class (real-world entity)
+
+It contains data + functions
+
+Example:
+Car c1; → c1 is object
+
+🔹 Class
+Class = Blueprint/template to create objects
+
+Defines variables + methods
+
+Example:
+
+class Car {
+public:
+    int speed;
+};
+🔹 Key Point
+Class = Design
+
+
+
+
