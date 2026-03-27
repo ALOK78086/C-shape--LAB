@@ -1,0 +1,18 @@
+// Write a program to check whether a number is automorphic or not
+using System;
+class Program
+{
+    static void Main()
+    {
+        int n;
+        Console.Write("Enter number: ");
+        n = Convert.ToInt32(Console.ReadLine());
+
+        int square = n * n;
+
+        if (square.ToString().EndsWith(n.ToString()))
+            Console.WriteLine("Automorphic Number");
+        else
+            Console.WriteLine("Not Automorphic");
+    }
+}
